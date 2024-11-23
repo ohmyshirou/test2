@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.segmented-button {
+    @apply border border-gray-300 rounded-lg px-4 py-2 text-gray-700 font-semibold transition duration-200;
+}
+
+.segmented-button:hover {
+    @apply bg-gray-100;
+}
+
+.segmented-button.active {
+    @apply bg-blue-600 text-white border-transparent;
+}
